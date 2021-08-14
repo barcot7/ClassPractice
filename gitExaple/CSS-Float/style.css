@@ -1,0 +1,22 @@
+section img {
+    background-color: red;
+    float: left;
+    width: 15%;
+    margin-top: 50px;
+}
+.first-p {
+    background-color: salmon;
+}
+.second-p {
+    background-color: slateblue;
+    width: 50%;
+    float: right;
+}
+.third-p {
+    background-color: burlywood;
+    clear: right;
+}
+.fourth-p {
+    background-color: cornflowerblue;
+    clear: both;
+}

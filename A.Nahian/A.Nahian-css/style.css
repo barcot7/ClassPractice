@@ -1,0 +1,15 @@
+h1 {
+    color: rgba(200, 100, 120, 1);
+    letter-spacing: 3px;
+}
+h2 {
+    background-color: #ccc;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: italic;
+    word-spacing: 5px;
+}
+p {
+    font-size: 18px;
+    text-align: justify;
+}

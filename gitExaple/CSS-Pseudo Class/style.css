@@ -1,0 +1,68 @@
+a:link {
+    color: tomato;
+}
+a:active {
+    color: green;
+}
+a:hover {
+    color: blue;
+}
+a:visited {
+    color: orange;
+}
+input:checked {
+    width: 20px;
+    height: 2px;
+}
+input:disabled {
+    background-color: lightcoral;
+}
+p:empty {
+    width: 15px;
+    height: 12px;
+    background-color: lightseagreen;
+}
+input[type='text']:enabled {
+    background-color:  yellow;
+}
+ul li:first-child {
+    color: red;
+}
+ul li:last-child {
+    color: green;
+}
+p:first-of-type {
+    background-color: greenyellow;
+}
+p:last-of-type {
+    background-color: limegreen;
+}
+input#text:focus {
+    background-color: white;
+    outline: none;
+    border: 5px solid green;
+}
+input[type="number"] {
+    background-color: greenyellow;
+}
+input[type="number"]:in-range {
+    background-color: tomato;
+}
+h3:not(.test) {
+    color: orange;
+}
+ul  li:nth-child(2) {
+    background-color: violet;
+}
+ul  li:nth-last-child(3) {
+    background-color: slateblue;
+}
+ol li:nth-child(2n+1) {
+    background-color: tan; /*2*0+1, 2*1+1, 2*2+1*/
+}
+.mix p:nth-of-type(2) {
+    color: blue;
+}
+p:only-child {
+    background-color: chocolate;
+}

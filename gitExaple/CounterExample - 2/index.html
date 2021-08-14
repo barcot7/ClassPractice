@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Counter Example</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container1 {
+            counter-reset: first;
+        }
+        h2::before {
+            counter-increment: first;
+            content: "Section " counter(first) ": ";
+        }
+        .container2 {
+            counter-reset: second;
+        }
+        .container2 h1 {
+            counter-reset: sub-second;
+        }
+        .container2 h1:before {
+            counter-increment: second;
+            content: "Section " counter(second)": ";
+        }
+        .container2 h2:before {
+            counter-increment: sub-second;
+            content: "Section " counter(second)"."counter(sub-second) ": ";
+        }
+        .container3 {
+            counter-reset: my-section;
+        }
+        .container3 h3::before {
+            counter-increment: my-section;
+            content: counter(my-section, lower-roman) ". ";
+        }
+        .container4 ol {
+            counter-reset: section;
+            list-style-type: none;
+        }
+
+        .container4 li::before {
+            counter-increment: section;
+            content: counters(section,".") " ";
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <h1>Using CSS Counters:</h1>
+        <h2>HTML Tutorial</h2>
+        <h2>CSS Tutorial</h2>
+        <h2>JavaScript Tutorial</h2>
+    </div>
+    <div class="container2">
+        <h1>HTML tutorials:</h1>
+        <h2>HTML Tutorial</h2>
+        <h2>CSS Tutorial</h2>
+        
+        <h1>Scripting tutorials:</h1>
+        <h2>JavaScript</h2>
+        <h2>VBScript</h2>
+        
+        <h1>XML tutorials:</h1>
+        <h2>XML</h2>
+        <h2>XSL</h2>
+    </div>
+    <div class="container3">
+        <h1>Tutorial List</h1>
+        <h3>HTML Tutorial</h3>
+        <h3>CSS Tutorial</h3>
+        <h3>JavaScript Tutorial</h3>
+        <h3>Bootstrap Tutorial</h3>
+        <h3>SQL Tutorial</h3>
+        <h3>PHP Tutorial</h3>
+    </div>
+    <div class="container4">
+        <ol>
+            <li>item</li>
+            <li>item</li>
+            <li>item
+                <ol>
+                    <li>sub-item</li>
+                    <li>sub-item</li>
+                    <li>sub-item
+                        <ol>
+                            <li>s.sub-item</li>
+                            <li>s.sub-item</li>
+                            <li>s.sub-item</li>
+                        </ol>
+                    </li>
+                    <li>sub-item</li>
+                </ol>
+            </li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+    </div>
+</body>
+</html>
