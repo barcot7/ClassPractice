@@ -1,0 +1,47 @@
+/*Header Area*/
+div#header_area {
+    background: #33a6b2;
+}
+.header {
+	width: 960px;
+	margin: 0 auto;
+}
+.header_top {
+    text-align: right;
+}
+
+.header_left {
+    float: left;
+    width: 50%;
+}
+
+.header_right {
+    float: right;
+    width: 50%;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.header_right .nav {
+    text-align: right;
+}
+
+.header_right .nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header_right .nav ul li a:hover, #active {
+    background: url(assets/img/hover.png) repeat-x;
+	color: #fff;
+}

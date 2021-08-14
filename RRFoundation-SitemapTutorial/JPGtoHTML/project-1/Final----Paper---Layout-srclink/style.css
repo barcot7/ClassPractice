@@ -1,0 +1,65 @@
+* {margin:0;padding:0}
+body {background:url(images/background.png) repeat fixed 0 0;font-family:arial;font-style:italic;font-size:14px;line-height:20px;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;margin-bottom:15px}
+a {color:#1D3F5A;text-decoration:none}
+a:hover {text-decoration:none}
+
+.stracture {width:960px;margin:0 auto;display:block}
+.floatleft {float:left} 
+.floatright {float:right} 
+.fix {overflow:hidden}
+
+.header_area {}
+.header {}
+.logo {margin:25px 0}
+.mainmenu {margin-top:37px}
+.mainmenu ul{margin:0;padding:0;list-style:none}
+.mainmenu ul li{float:left;margin-right:10px}
+.mainmenu ul li a{display:block;padding:5px 10px;font-weight:bold;text-transform:uppercase;color:#000}
+.mainmenu ul li a:hover{background:#000;color:#fff;border-radius:5px}
+.slider_area {}
+.slider {border:1px solid #ddd;border-radius:5px;margin-bottom:50px}
+.slider_images {margin:5px;background:url(images/slider_background.png) repeat;padding:10px}
+.slider_images img{padding:5px;background:#fff;width:920px}
+.promo_area {margin-bottom:30px}
+.promo {}
+.single_promo {margin-right: 70px;
+width: 273px;}
+.last_column {margin-right:0}
+.quote_area {margin-bottom:30px}
+.quote {border:1px solid #ddd;padding:5px;background:#fff;border-radius:5px;font-size:25px}
+.quote_left_text {}
+.quote_left_text p{padding:10px}
+.quote_right_link {}
+.quote_right_link p{padding:10px;float:left}
+.quote_right_link a{background: url("images/quote_background.png") repeat scroll 0 0 transparent;
+border-radius: 5px 5px 5px 5px;
+display: block;
+float: left;
+padding: 10px;
+text-shadow: 0 1px 0 #CCCCCC;}
+.quote_bottom_area {margin-bottom:30px}
+.quote_bottom {}
+.quote_bottom_left {margin-right: 20px;
+width: 667px;}
+.quote_bottom_right {width:273px}
+.promo_bottom_area {margin-bottom:30px}
+.promo_bottom {}
+.single_promo_bottom {border: 1px solid #DDDDDD;
+border-radius: 5px 5px 5px 5px;
+margin-right: 30px;
+width: 298px;}
+.single_promo_bottom_images {margin:5px;background:url(images/slider_background.png) repeat;padding:10px}
+.single_promo_bottom_images img {padding:5px;background:#fff;width:258px}
+.footer_area {background:url(images/footer_background.png) repeat;padding:10px 0}
+.footer {}
+.footer_copyright {font-size:12px;color:#666;padding:10px 0}
+.footer_social_profiles {}
+.social_profiles {background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #DDDDDD;
+border-radius: 5px 5px 5px 5px;
+margin-top: 3px;
+padding: 5px;}
+.social_profiles img {margin-left: 7px;
+margin-right: 7px;
+margin-top: 4px;}
