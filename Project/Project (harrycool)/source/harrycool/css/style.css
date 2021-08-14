@@ -1,0 +1,164 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.top {
+	padding: 1%;
+	background: #fff;
+}
+.top p {
+	text-align: right;
+	margin-bottom: 0;
+    padding: 3% 0;
+}
+
+.header {
+	background: url(../img/bg.jpg) no-repeat bottom;
+	background-size: cover;
+	padding: 12% 5%;
+	color: #fff;
+	text-align: center;
+}
+h1 {
+	font-weight: 700;
+	font-size: 45px;
+	max-width: 500px;
+	margin-bottom: 2%;
+	margin: 0 auto 2%;
+}
+.header p {
+	max-width: 560px;
+	margin-bottom: 4%;
+	font-size: 18px;
+	margin: 0 auto 3%;
+}
+.header .btn-default {
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
+	color: #fff;
+	background: #378ADE;
+	padding: 10px 35px;
+	margin-bottom: 15px;
+}
+.feature {
+	padding: 5%;
+	text-align: center;
+}
+.feature img {
+	margin: 0 auto;
+	margin-bottom: 3%;
+}
+.feature h4 {
+	font-weight: 700;
+}
+.testimonial {
+	background: #F3F3F3;
+}
+
+
+
+
+
+
+
+/************************************************
+slider
+*************************************************/
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+
+/*************************************************
+
+**************************************************/
+
+
+.fit {
+	background: url(../img/fit.jpg) no-repeat center;
+	background-size: cover;
+	padding: 5%;
+	text-align: center;
+	color: #fff;
+}
+.fit h2 {
+	margin-bottom: 3%;
+}
+.fit .btn-default {
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
+	color: #fff;
+	background: #378ADE;
+	padding: 10px 35px;
+	margin-bottom: 15px;
+}
+.footer {
+	padding: 2%;
+	background: #11242f;
+	color: #fff;
+}
+.footer p {
+	margin-bottom: 0;
+}
+@media (max-width: 500px) {
+	.fit .btn-default,
+	.header .btn-default {
+		padding: 10px;
+		font-size: 16px;
+	}
+	.footer {
+		text-align: center;
+	}
+}

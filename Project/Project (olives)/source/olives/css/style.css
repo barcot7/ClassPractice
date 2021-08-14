@@ -1,0 +1,93 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+}
+.top {
+	padding: 5%;
+	background: #f4f4f4;
+}
+.logo {
+	text-align: center;
+}
+.logo h3 {
+	margin-top: 10%;
+	font-weight: 700;
+}
+.logo h1 {
+	font-weight: 700;
+}
+h2 {
+	color: #662d91;
+	font-size: 36px;
+}
+.content {
+	padding: 3%;
+}
+.list li {
+	margin-bottom: 10px;
+}
+.list span {
+	font-weight: 700;
+}
+.reg {
+	margin-top: 0;
+	margin-bottom: 3%;
+}
+.books img {
+	margin-top: 3%;
+}
+form {
+	max-width: 400px;
+}
+.btn-default {
+	border: 0;
+	background: #13a89e;
+	color: #fff;
+	font-weight: 700;
+}
+.btn-default:hover {
+	background: #0a938a;
+	color: #fff;
+}
+  h1 {
+  	margin: 0;
+  	padding: 5%;
+  }
+  .top img {
+	margin: 0 auto;
+	padding-top: 3%;
+}
+.outline {
+	background-color: #16ACDF;
+	padding: 5%;
+}
+.outline h2 {
+	margin: 0 0 3%;
+	color: #fff;
+}
+.testimonial {
+	padding: 5%;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+.testimonial img {
+	border-radius: 50%;
+	width: 150px;
+	margin-bottom: 3%;
+}
+.testimonial h3 {
+	font-weight: 700;
+	margin-top: 1%;
+	padding-bottom: 2%;
+}
+.footer {
+	background-color: #17243b;
+	padding: 2%;
+	color: #fff;
+	text-align: center;
+}
+@media (max-width: 767px) {
+  .logo {
+  	background: #f3f3f3;
+
+  }
