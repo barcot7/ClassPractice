@@ -41,7 +41,15 @@ p {
   }
 
   .shadow1 {
-      width: 450px;
-      height: 300px;
-
-  }
+    width: 450px;
+    height: 300px;
+    background-image: linear-gradient(20deg, pink, orange);
+    margin: 0 auto;
+    padding: 15px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: arial;
+    margin-top: 80px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px 1px #000;
+}
