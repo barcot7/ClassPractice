@@ -1,0 +1,47 @@
+h1 {
+    color: rgba(200, 100, 120, 1);
+    letter-spacing: 3px;
+}
+h2 {
+    background-color: #ccc;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: italic;
+    word-spacing: 5px;
+}
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+#style-heading {
+    background-color: rgb(1254, 204, 300);
+}
+.box2 {
+    background-image: radial-gradient(red, white);
+    width: 1170px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.single-box {
+    float: left;
+    width: 31%;
+    margin: 0 1%;
+}
+.single-box img {
+    width: 100%;
+}
+.single-box h3 {
+    background: green;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .shadow1 {
+      width: 450px;
+      height: 300px;
+
+  }
