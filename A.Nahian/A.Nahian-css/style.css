@@ -20,10 +20,11 @@ p {
     background-image: radial-gradient(red, white);
     width: 1170px;
     margin:0 auto;
+    overflow: hidden;
 }
 .single-box {
     float: left;
-    width: 28%;
+    width: 31%;
     margin: 0 1%;
 }
 .single-box img {
@@ -42,5 +43,5 @@ p {
   .shadow1 {
       width: 450px;
       height: 300px;
-      
+
   }
